@@ -1,0 +1,33 @@
+{
+  "name": "genpark-jev-system1-subconscious-decision-skill",
+  "version": "1.0.0",
+  "description": "Jev-inspired System-1 subconscious cognitive decision layer resolving typed routing, loop-stall arbitration, and tool safety checks at sub-millisecond latency.",
+  "category": "Service",
+  "author": "AlphaPark",
+  "tags": [
+    "jev",
+    "system-1-cognition",
+    "personal-agent",
+    "typed-decision",
+    "low-latency",
+    "mcp"
+  ],
+  "tools": [
+    {
+      "name": "evaluate_system1_decision",
+      "description": "Execute sub-millisecond typed decision on application state without heavy LLM invocations."
+    },
+    {
+      "name": "detect_agent_loop_stall",
+      "description": "Detect cyclic deadlocks, repetitive action hashes, or ping-pong tool stalls."
+    },
+    {
+      "name": "route_typed_action",
+      "description": "Map intent or state payload to exact deterministic tool signature."
+    },
+    {
+      "name": "run_benchmark_system1_decisions",
+      "description": "Benchmark System-1 decision latency and cost savings vs frontier models."
+    }
+  ]
+}
